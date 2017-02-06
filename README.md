@@ -1,1 +1,1 @@
-# myGoBy https://github.com/cherishjp/myGoBy.git
+T# myGoy https://github.com/cherishjp/myGoBy.git
