@@ -1,0 +1,14 @@
+1、任意键关闭
+F:\wamp_server\php-5.2.17\php.exe -q F:\web\php_prodect\hcjr58_auto_sdk\running.php
+pause
+2、
+ 自动关机
+
+at 22:00 shutdown -s 每天22:00定时关机
+at 22:00 /every:S shutdown -s 每个星期6 22:00定时关机
+at 22:00 /every:3 shutdown -s 每个月3号 22:00定时关机
+at 21:30 shutdown -f -r 在每天21：30从新启动计算机
+at 21:30 shutdown -f -s 在每天21：30关闭计算机用记事本写下 shutdown -s -t 后面打时间就ok 了. 如果你想去掉的话直接就shutdown -a 
+这样就OK了
+最后直接保存为.bat文件 开始菜单 运行 键入cmd 回车 输入 shutdown -s -t 默认60秒关机，你要定时，只要在t后面空格一格然后输入数字(时间单位是秒).取消定时关机:shutdwon -a，答案补充 at /every:4 10:47 shutdown -f -r 在每月的4号10：47 重新启动计算机 4的地方可以输入
+（1-31）如果是星期几可以输入（M、T、W、Th、F、S、Su）7天 at 21:30 /every:w,f,su shutdown -s -f -t 0
